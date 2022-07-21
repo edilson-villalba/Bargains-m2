@@ -1,0 +1,36 @@
+<web-app>
+<display-name>Archetype Created Web Application</display-name>
+<servlet>
+	<description>
+	</description>
+	<display-name>LeerCoockie</display-name>
+	<servlet-name>LeerCoockie</servlet-name>
+	<servlet-class>py.ucsa.edu.bargains.m2.servlets.LeerCoockie</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>ProbarCookie</display-name>
+	<servlet-name>ProbarCookie</servlet-name>
+	<servlet-class>py.ucsa.edu.bargains.m2.servlets.ProbarCookie</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>Subastas</display-name>
+	<servlet-name>Subastas</servlet-name>
+	<servlet-class>py.ucsa.edu.bargains.m2.servlets.Subastas</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LeerCoockie</servlet-name>
+	<url-pattern>/LeerCoockie</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ProbarCookie</servlet-name>
+	<url-pattern>/ProbarCookie</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>Subastas</servlet-name>
+	<url-pattern>/Subastas</url-pattern>
+</servlet-mapping>
+</web-app>
